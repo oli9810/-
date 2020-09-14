@@ -1,0 +1,112 @@
+*{
+   margin:0;
+   padding: 0;
+}
+
+body{
+    background:black;
+    margin: 0 50px 0 50px;
+}
+
+.portada img{
+    width: 100%;
+}
+/*contenedor principal*/
+
+
+
+
+/*Menu Desplegable*/
+
+div {
+		margin:0px;
+        padding:0px;
+        top: 30%;
+	}
+			
+#header {
+    margin:auto;
+	width:800px;
+    font-family:Arial, Helvetica, sans-serif;
+     top: 40px;
+     background: gray;
+}
+			
+div ul, ol {
+	list-style:none;
+}
+    
+/*.nav {
+    display: block;
+    background: green;
+}*/
+nav{
+    padding:0 0 0 15%;
+    display: inline-block;
+    margin: auto;
+}
+.nav > li {
+    float:left;
+    margin: 10px;
+}
+			
+.nav li a {
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;
+	
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+
+.Contenedor{
+  
+   width: 100%;      
+   background: navy;
+     
+}
+
+.producto img{
+    width: 300px;
+    height: 200px;
+}
+
+.Fila1{
+    width: 95%;
+    background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; 
+    padding: 5% 0 0 5%;
+    display: inline-block;
+
+}
+.Fila1 div{
+    margin-left: 5%;
+}
+.producto{
+    display:inline-block;
+}
+
+.producto:hover{
+    opacity: 0.5 ;
+    background-color: gray;
+}
+
+.producto p{
+    text-align: center;
+}
+    
+
+        

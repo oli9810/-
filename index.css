@@ -1,7 +1,17 @@
 *{
    margin:0;
    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+/*Letras*/
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin:0 0 20px 0;
+    
+}
+
 
 body{
     background:black;
@@ -28,8 +38,8 @@ div {
     margin:auto;
 	width:800px;
     font-family:Arial, Helvetica, sans-serif;
-     top: 40px;
-     background: gray;
+    top: 40px;
+    background: gray;
 }
 			
 div ul, ol {
@@ -74,27 +84,19 @@ nav{
 .Contenedor{
   
    width: 100%;      
-   background: navy;
+   background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 10px 0 30px 0; 
      
 }
+/*Tamanio de imagenes */
 
 .producto img{
     width: 300px;
     height: 200px;
 }
 
-.Fila1{
-    width: 95%;
-    background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
-      background-repeat: no-repeat;
-      background-size: cover; 
-    padding: 5% 0 0 5%;
-    display: inline-block;
-
-}
-.Fila1 div{
-    margin-left: 5%;
-}
 .producto{
     display:inline-block;
 }
@@ -107,6 +109,198 @@ nav{
 .producto p{
     text-align: center;
 }
+
+/*Fila 1*/
+.Fila1{
+    width: 95%;  
+    padding: 5% 0 0 5%;
+    display: inline-block;
+
+}
+.Fila1 div{
+    margin-left: 5%;
+}
+
+/*Fila 2*/
+.Fila2{
+    width: 95%;
+    padding: 5% 0 0 5%;
+    display: inline-block;
+
+}
+.Fila2 div{
+    margin-left: 5%;
+}
+/*Fila 3*/
+.Fila3{
+    width: 95%;
+    padding: 5% 0 0 5%;
+    display: inline-block;
+
+}
+.Fila3 div{
+    margin-left: 5%;
+}
+
+/*Fila 4*/
+.Bioseguridad{
+  
+   width: 100%;      
+   background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 30px 0 0 0;
+   padding: 0px 0 30px 0;
+   text-align: center; 
+     
+}
+
+
+
+.Fila4{
+    width: 95%;
+    padding: 5% 0 0 5%;
+    display: inline-block;
+    
+
+}
+.Fila4 div{
+    margin-left: 5%;
+}
+ /*FOOTER*/
+
+ footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
     
 
         

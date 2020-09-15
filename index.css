@@ -16,11 +16,13 @@ h1{
 
 body{
     background:black;
-    margin: 0 50px 0 50px;
+    margin: 0 30px 0 30px;
 }
 
 .portada img{
     width: 100%;
+    display: flex;
+
 }
 /*contenedor principal*/
 
@@ -31,10 +33,13 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    padding: 10px 0 30px 0; 
+   display: flex;
+   flex-wrap: wrap;
      
 }
-
-
+.Contenedor > div{
+    flex: 1;
+}
 
 /*Menu Desplegable*/
 
@@ -46,10 +51,14 @@ div {
 			
 #header {
     margin:auto;
-	width:800px;
+	width:80%;
     font-family:Arial, Helvetica, sans-serif;
     top: 40px;
     background: gray;
+    display: flex;
+}
+#header{
+    flex: 1;
 }
 			
 div ul, ol {
@@ -97,6 +106,7 @@ nav{
 .producto img{
     width: 300px;
     height: 200px;
+
 }
 
 .producto{
@@ -117,6 +127,10 @@ nav{
     width: 95%;  
     padding: 5% 0 0 5%;
     display: inline-block;
+    display: flex;
+    flex-direction: column;
+    
+    
 
 }
 .Fila1 div{
@@ -128,6 +142,8 @@ nav{
     width: 95%;
     padding: 5% 0 0 5%;
     display: inline-block;
+    display: flex;
+    flex-direction: column;
 
 }
 .Fila2 div{
@@ -138,6 +154,8 @@ nav{
     width: 95%;
     padding: 5% 0 0 5%;
     display: inline-block;
+    display: flex;
+    flex-direction: column;
 
 }
 .Fila3 div{
@@ -154,6 +172,7 @@ nav{
    margin: 30px 0 0 0;
    padding: 0px 0 30px 0;
    text-align: center; 
+   display: flex;
      
 }
 
@@ -183,6 +202,7 @@ nav{
     max-width: 1200px;
     margin: auto;
     padding: 40px;
+    display: flex;
 }
 
 .container-body{

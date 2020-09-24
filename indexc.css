@@ -220,7 +220,7 @@ nav{
 .container-body{
     
     justify-content: space-between;
-    display: flex;
+   
     flex-flow:wrap row;
 }
 

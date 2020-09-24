@@ -317,6 +317,9 @@ nav{
     text-decoration: none;
     color: #C7C7C7;
 }
+.responsive li{
+    display: block;
+}
 
 
 @media screen and (max-width: 1100px){
@@ -334,7 +337,7 @@ nav{
         margin-top: 40px;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:32.5em){
     .Contenedor{
         width: 95%;
     }
@@ -343,6 +346,13 @@ nav{
         width: 100%;
         
     }
+    .navegacion{
+        display: flex;
+    }
+    .navegacion li:first-child{
+        display: none;
+    }
+   
 
 }
 

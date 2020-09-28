@@ -221,7 +221,15 @@ header label:hover{
     }
 }
 @media screen and (max-width:500px){
-    
+   
+    .Contenedor{
+        width: 100%;
+        margin: 0;
+    }
+    .colum1{
+        width: 100%;
+        
+    }
    
     .portada img {
         background-image: url(/-/Logos/Logo\ peque.png);

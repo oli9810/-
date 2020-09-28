@@ -327,6 +327,8 @@ header label:hover{
     }
     .portada img {
         background-image: url(/-/Logos/Logo\ peque.png);
+        width: 100%;
+        display: flex;
     }
     
     header{
